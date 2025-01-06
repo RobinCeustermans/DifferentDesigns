@@ -1,0 +1,14 @@
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\bin\Debug\net8.0\AncientCities.Domain.deps.json
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\bin\Debug\net8.0\AncientCities.Domain.runtimeconfig.json
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\bin\Debug\net8.0\AncientCities.Domain.dll
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\bin\Debug\net8.0\AncientCities.Domain.pdb
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.csproj.AssemblyReference.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.AssemblyInfoInputs.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.AssemblyInfo.cs
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.csproj.CoreCompileInputs.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.dll
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\refint\AncientCities.Domain.dll
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.pdb
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\AncientCities.Domain.genruntimeconfig.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Domain\obj\Debug\net8.0\ref\AncientCities.Domain.dll
