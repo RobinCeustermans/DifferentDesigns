@@ -1,0 +1,17 @@
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\bin\Debug\net8.0\AncientCities.Infrastructure.deps.json
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\bin\Debug\net8.0\AncientCities.Infrastructure.runtimeconfig.json
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\bin\Debug\net8.0\AncientCities.Infrastructure.dll
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\bin\Debug\net8.0\AncientCities.Infrastructure.pdb
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\bin\Debug\net8.0\AncientCities.Domain.dll
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\bin\Debug\net8.0\AncientCities.Domain.pdb
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.csproj.AssemblyReference.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.AssemblyInfoInputs.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.AssemblyInfo.cs
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientC.0E21DD7D.Up2Date
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.dll
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\refint\AncientCities.Infrastructure.dll
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.pdb
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\AncientCities.Infrastructure.genruntimeconfig.cache
+C:\projects\Git\AncientCitiesDesigns\AncientCitiesCleanArchitecture\AncientCities.Infrastructure\obj\Debug\net8.0\ref\AncientCities.Infrastructure.dll

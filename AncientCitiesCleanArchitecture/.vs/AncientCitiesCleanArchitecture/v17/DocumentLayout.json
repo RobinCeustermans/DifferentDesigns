@@ -1,0 +1,426 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\mappers\\cityimagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\mappers\\cityimagemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\mappers\\citytypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\mappers\\citytypemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\mappers\\citymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\mappers\\citymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\controllers\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\dtos\\cityimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\dtos\\cityimagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\services\\cityimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\services\\cityimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C715BF7C-47C7-4163-B702-ED249409716D}|AncientCities.Domain\\AncientCities.Domain.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.domain\\entities\\citytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C715BF7C-47C7-4163-B702-ED249409716D}|AncientCities.Domain\\AncientCities.Domain.csproj|solutionrelative:ancientcities.domain\\entities\\citytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\interfaces\\services\\icityimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\interfaces\\services\\icityimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D5C8F0-916F-4126-A7FB-E8EE4C501195}|AncientCities.Infrastructure\\AncientCities.Infrastructure.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.infrastructure\\repositories\\cityimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D5C8F0-916F-4126-A7FB-E8EE4C501195}|AncientCities.Infrastructure\\AncientCities.Infrastructure.csproj|solutionrelative:ancientcities.infrastructure\\repositories\\cityimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\dtos\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\dtos\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\interfaces\\services\\icitytypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\interfaces\\services\\icitytypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\services\\cityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\interfaces\\services\\icityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\interfaces\\services\\icityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D5C8F0-916F-4126-A7FB-E8EE4C501195}|AncientCities.Infrastructure\\AncientCities.Infrastructure.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.infrastructure\\repositories\\citytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D5C8F0-916F-4126-A7FB-E8EE4C501195}|AncientCities.Infrastructure\\AncientCities.Infrastructure.csproj|solutionrelative:ancientcities.infrastructure\\repositories\\citytyperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\viewmodels\\cityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\viewmodels\\cityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20D5C8F0-916F-4126-A7FB-E8EE4C501195}|AncientCities.Infrastructure\\AncientCities.Infrastructure.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20D5C8F0-916F-4126-A7FB-E8EE4C501195}|AncientCities.Infrastructure\\AncientCities.Infrastructure.csproj|solutionrelative:ancientcities.infrastructure\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\views\\city\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\views\\city\\upsert.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\views\\city\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\views\\citytype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\views\\citytype\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\controllers\\citytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\controllers\\citytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C715BF7C-47C7-4163-B702-ED249409716D}|AncientCities.Domain\\AncientCities.Domain.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.domain\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C715BF7C-47C7-4163-B702-ED249409716D}|AncientCities.Domain\\AncientCities.Domain.csproj|solutionrelative:ancientcities.domain\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcities.application\\ancientcities.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B340AECE-900D-452F-B9A3-C9E48A8114C4}|AncientCities.Application\\AncientCities.Application.csproj|solutionrelative:ancientcities.application\\ancientcities.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|c:\\projects\\git\\ancientcitiesdesigns\\ancientcitiescleanarchitecture\\ancientcitiescleanarchitecture\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0210D7AB-44F3-4564-AF32-E1EE09172E13}|AncientCitiesCleanArchitecture\\AncientCities.WebAPI.csproj|solutionrelative:ancientcitiescleanarchitecture\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Controllers\\CityController.cs",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\Controllers\\CityController.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Controllers\\CityController.cs",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\Controllers\\CityController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAwKMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:03:27.185Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CityMapper.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Mappers\\CityMapper.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Mappers\\CityMapper.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Mappers\\CityMapper.cs",
+              "RelativeToolTip": "AncientCities.Application\\Mappers\\CityMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:15:26.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CityTypeMapper.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Mappers\\CityTypeMapper.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Mappers\\CityTypeMapper.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Mappers\\CityTypeMapper.cs",
+              "RelativeToolTip": "AncientCities.Application\\Mappers\\CityTypeMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:14:53.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityImageMapper.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Mappers\\CityImageMapper.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Mappers\\CityImageMapper.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Mappers\\CityImageMapper.cs",
+              "RelativeToolTip": "AncientCities.Application\\Mappers\\CityImageMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T11:15:07.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CityType.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Domain\\Entities\\CityType.cs",
+              "RelativeDocumentMoniker": "AncientCities.Domain\\Entities\\CityType.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Domain\\Entities\\CityType.cs",
+              "RelativeToolTip": "AncientCities.Domain\\Entities\\CityType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:59:35.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CityImageDto.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\DTOs\\CityImageDto.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\DTOs\\CityImageDto.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\DTOs\\CityImageDto.cs",
+              "RelativeToolTip": "AncientCities.Application\\DTOs\\CityImageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:57:55.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CityImageService.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Services\\CityImageService.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Services\\CityImageService.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Services\\CityImageService.cs",
+              "RelativeToolTip": "AncientCities.Application\\Services\\CityImageService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:56:24.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICityImageService.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Interfaces\\Services\\ICityImageService.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Interfaces\\Services\\ICityImageService.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Interfaces\\Services\\ICityImageService.cs",
+              "RelativeToolTip": "AncientCities.Application\\Interfaces\\Services\\ICityImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:49:59.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CityImageRepository.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Infrastructure\\Repositories\\CityImageRepository.cs",
+              "RelativeDocumentMoniker": "AncientCities.Infrastructure\\Repositories\\CityImageRepository.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Infrastructure\\Repositories\\CityImageRepository.cs",
+              "RelativeToolTip": "AncientCities.Infrastructure\\Repositories\\CityImageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:47:19.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CityTypeRepository.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Infrastructure\\Repositories\\CityTypeRepository.cs",
+              "RelativeDocumentMoniker": "AncientCities.Infrastructure\\Repositories\\CityTypeRepository.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Infrastructure\\Repositories\\CityTypeRepository.cs",
+              "RelativeToolTip": "AncientCities.Infrastructure\\Repositories\\CityTypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:47:06.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CityDto.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\DTOs\\CityDto.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\DTOs\\CityDto.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\DTOs\\CityDto.cs",
+              "RelativeToolTip": "AncientCities.Application\\DTOs\\CityDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T10:45:46.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Program.cs",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\Program.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Program.cs",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:42:46.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "AncientCities.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "AncientCities.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:31:43.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "AncientCities.Infrastructure\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Infrastructure\\Repositories\\Repository.cs",
+              "RelativeToolTip": "AncientCities.Infrastructure\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAcwDsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T15:25:21.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AncientCities.Application.csproj",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\AncientCities.Application.csproj",
+              "RelativeDocumentMoniker": "AncientCities.Application\\AncientCities.Application.csproj",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\AncientCities.Application.csproj",
+              "RelativeToolTip": "AncientCities.Application\\AncientCities.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-04T15:01:02.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CityViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\ViewModels\\CityViewModel.cs",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\ViewModels\\CityViewModel.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\ViewModels\\CityViewModel.cs",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\ViewModels\\CityViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:47:51.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Upsert.cshtml",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\City\\Upsert.cshtml",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\Views\\City\\Upsert.cshtml",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\City\\Upsert.cshtml",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\Views\\City\\Upsert.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-04T14:47:03.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICityTypeService.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Interfaces\\Services\\ICityTypeService.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Interfaces\\Services\\ICityTypeService.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Interfaces\\Services\\ICityTypeService.cs",
+              "RelativeToolTip": "AncientCities.Application\\Interfaces\\Services\\ICityTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T14:45:37.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:11:40.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-03T17:10:20.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\CityType\\Index.cshtml",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\Views\\CityType\\Index.cshtml",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\CityType\\Index.cshtml",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\Views\\CityType\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:07:12.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\City\\Index.cshtml",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\Views\\City\\Index.cshtml",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Views\\City\\Index.cshtml",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\Views\\City\\Index.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:03:44.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICityService.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Interfaces\\Services\\ICityService.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Interfaces\\Services\\ICityService.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Interfaces\\Services\\ICityService.cs",
+              "RelativeToolTip": "AncientCities.Application\\Interfaces\\Services\\ICityService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:03:18.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CityService.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Services\\CityService.cs",
+              "RelativeDocumentMoniker": "AncientCities.Application\\Services\\CityService.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCities.Application\\Services\\CityService.cs",
+              "RelativeToolTip": "AncientCities.Application\\Services\\CityService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:01:53.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CityTypeController.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Controllers\\CityTypeController.cs",
+              "RelativeDocumentMoniker": "AncientCitiesCleanArchitecture\\Controllers\\CityTypeController.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesDesigns\\AncientCitiesCleanArchitecture\\AncientCitiesCleanArchitecture\\Controllers\\CityTypeController.cs",
+              "RelativeToolTip": "AncientCitiesCleanArchitecture\\Controllers\\CityTypeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-03T17:01:12.031Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
