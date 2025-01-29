@@ -1,0 +1,6 @@
+@AncientCitiesCleanArchitecture_HostAddress = http://localhost:5293
+
+GET {{AncientCitiesCleanArchitecture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
