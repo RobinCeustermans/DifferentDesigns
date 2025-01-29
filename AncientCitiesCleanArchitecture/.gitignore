@@ -1,0 +1,13 @@
+# Ignore build output
+[Bb]in/
+[Oo]bj/
+
+# Ignore VS debug files
+.vs/
+.vscode/
+
+# Ignore other common files
+.user
+.userosscache
+.suo
+.sln.docstates
