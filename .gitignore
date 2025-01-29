@@ -1,0 +1,28 @@
+# Ignore build output
+[Bb]in/
+[Oo]bj/
+
+# Ignore Visual Studio and JetBrains IDEs files
+.vs/
+.vscode/
+
+# Ignore Visual Studio user-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Ignore JetBrains IDEs project files
+.idea/
+
+# Ignore NuGet packages
+*.nupkg
+# Ignore ASP.NET Core published files
+wwwroot/
+
+# Ignore local configuration files
+appsettings.Development.json
+appsettings.Local.json
+
+# Ignore log files
+*.log
