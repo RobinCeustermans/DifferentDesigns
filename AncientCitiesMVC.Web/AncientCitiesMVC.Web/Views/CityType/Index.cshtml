@@ -1,0 +1,59 @@
+﻿@model List<AncientCitiesMVC.Models.CityType>
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-header bg-primary bg-gradient m-lg-0 py-3">
+        <div class="row ">
+            <div class="col-12 text-center">
+                <h2 class="text-white py-2">City types</h2>
+            </div>
+        </div>
+    </div>
+    <div class="card-body p-4">
+        <div class="row pb-3">
+            <div class="col-6">
+            </div>
+            <div class="col-6 text-end">
+                <a asp-controller="CityType" asp-action="Upsert" class="btn btn-primary">
+                    <i class="bi bi-plus-circle"></i> Add New City Type
+                </a>
+            </div>
+        </div>
+
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        City Name
+                    </th>
+                    @* <th><i class="bi bi-pencil-square"></i></th> *@
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.OrderBy(x => x.Name))
+                {
+                    <tr>
+                        <td style="width: 70%">
+                            @item.Name
+                        </td>
+                        <td style="width: 15%">
+                            <div class="w-100 btn-group col-3" role="group">
+                                <a asp-controller="CityType" asp-action="Upsert" asp-route-id="@item.Id" class="btn btn-primary mx-2">
+                                    <i class="bi bi-pencil-square"></i> Edit
+                                </a>
+                            </div>
+                        </td>
+                        <td style="width: 15%">
+                            <div class="w-100 btn-group col-3" role="group">
+                                <a asp-controller="CityType" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger mx-2" onclick="return confirm('Are you sure you want to delete this item?');">
+                                    <i class="bi bi-trash"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>

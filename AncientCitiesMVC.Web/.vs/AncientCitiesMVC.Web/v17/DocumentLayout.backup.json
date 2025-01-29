@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\Git\\AncientCitiesMVC.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\viewmodels\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|c:\\projects\\git\\ancientcitiesmvc.web\\ancientcitiesmvc.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9976EC5-7DF1-4F9B-B3DD-B53D7939F860}|AncientCitiesMVC.Web\\AncientCitiesMVC.Web.csproj|solutionrelative:ancientcitiesmvc.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\ViewModels\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\ViewModels\\ErrorViewModel.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\ViewModels\\ErrorViewModel.cs",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\ViewModels\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:57:07.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T18:56:48.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T18:54:49.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-29T18:54:44.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\appsettings.json",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\appsettings.json",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T18:40:49.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwCAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:35:49.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Program.cs",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\Program.cs",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Program.cs",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T18:35:10.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AncientCitiesMVC.Web\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\projects\\Git\\AncientCitiesMVC.Web\\AncientCitiesMVC.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AncientCitiesMVC.Web\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-29T18:27:08.743Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
