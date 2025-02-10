@@ -1,12 +1,11 @@
-﻿using AncientCities.Application.DTOs;
-using AncientCities.Domain.Entities;
+﻿using AncientCities.Domain.Entities;
 using AutoMapper;
 
-namespace AncientCities.Application.Mappers
+namespace AncientCities.Application.AncientCityImage
 {
     public class CityImageMapper : Profile
     {
-        public CityImageMapper() 
+        public CityImageMapper()
         {
             CreateMap<CityImage, CityImageDto>().ReverseMap();
         }

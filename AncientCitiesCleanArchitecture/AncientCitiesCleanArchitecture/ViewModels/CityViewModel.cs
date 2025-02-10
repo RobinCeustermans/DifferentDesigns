@@ -1,4 +1,4 @@
-﻿using AncientCities.Application.DTOs;
+﻿using AncientCities.Application.AncientCity;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;

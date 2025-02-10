@@ -1,7 +1,11 @@
-﻿using AncientCities.Application.CommonData;
-using AncientCities.Application.DTOs;
-using AncientCities.Application.Interfaces;
-using AncientCities.Application.Interfaces.Services;
+﻿using AncientCities.Application.AncientCity;
+using AncientCities.Application.AncientCity.Commands;
+using AncientCities.Application.AncientCity.Queries;
+using AncientCities.Application.AncientCityImage.Commands;
+using AncientCities.Application.AncientCityImage.Queries;
+using AncientCities.Application.AncientCityType.Queries;
+using AncientCities.Application.CommonData;
+using AncientCities.Application.CommonData.Interfaces;
 using AncientCities.Domain.Entities;
 using AncientCities.WebAPI.ViewModels;
 using AncientCities.WebAPI.Views.Helpers;
@@ -13,164 +17,137 @@ namespace AncientCities.WebAPI.Controllers
     [Controller]
     public class CityController : Controller
     {
-        private readonly ICityService _cityService;
-        private readonly ICityTypeService _cityTypeService;
-        private readonly ICityImageService _cityImageService;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IQueryCommandFactory _factory;
 
-        public CityController(ICityService cityService, ICityTypeService cityTypeService, IWebHostEnvironment webHostEnvironment, ICityImageService cityImageService)
+        public CityController(IWebHostEnvironment webHostEnvironment, IQueryCommandFactory factory)
         {
-            _cityService = cityService;
-            _cityTypeService = cityTypeService;
             _webHostEnvironment = webHostEnvironment;
-            _cityImageService = cityImageService;
+            _factory = factory;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            List<CityDto> list = await _cityService.GetAllCitiesAsync();
-            return View(list);
+            var cities = await _factory.Create<GetAllCitiesQuery>().ExecuteAsync();
+            return View(cities);
         }
 
         public async Task<IActionResult> Upsert(int? id)
         {
-            IEnumerable<SelectListItem> typeList = (await _cityTypeService.GetAllCityTypesAsync())
-            .Select(cityType => new SelectListItem
-            {
-                 Value = cityType.Id.ToString(),
-                 Text = cityType.Name
-            });
+            var typeList = (await _factory.Create<GetAllCityTypesQuery>().ExecuteAsync())
+                .Select(cityType => new SelectListItem
+                {
+                    Value = cityType.Id.ToString(),
+                    Text = cityType.Name
+                });
 
-            CityViewModel cityViewModel = new CityViewModel
+            var cityViewModel = new CityViewModel
             {
                 CityTypes = typeList,
                 City = new CityDto(),
                 EraNames = EnumHelper.GetEnumSelectList<Era.EraNames>()
             };
 
-            ViewBag.EraNames = EnumHelper.GetEnumSelectList<Era.EraNames>();
+            ViewBag.EraNames = cityViewModel.EraNames;
 
-            if (id == null || id == 0)
+            if (id != null && id > 0)
             {
-                return View(cityViewModel);
-            }
-            else
-            {
-                cityViewModel.City = await _cityService.GetCityByIdAsync(id.Value, includeProperties: "CityImages");
+                cityViewModel.City = await _factory.Create<GetCityByIdQuery>().ExecuteAsync(id.Value, includeProperties: "CityImages");
                 if (cityViewModel.City == null)
                     return NotFound();
 
                 cityViewModel.EraCreatedInt = cityViewModel.City.EraCreated == "BC" ? 0 : 1;
                 cityViewModel.EraDefunctInt = cityViewModel.City.EraDefunct == "BC" ? 0 : 1;
-
-                ViewBag.EraNames = EnumHelper.GetEnumSelectList<Era.EraNames>();
-
-                return View(cityViewModel);
             }
+
+            return View(cityViewModel);
         }
 
         [HttpPost]
         public async Task<IActionResult> Upsert(CityViewModel cityViewModel, List<IFormFile> files)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                cityViewModel.City.EraCreated = cityViewModel.EraCreatedInt == 0 ? "BC" : cityViewModel.City.EraCreated = cityViewModel.EraCreatedInt == 1 ? "AD" : null;
-                cityViewModel.City.EraDefunct = cityViewModel.EraDefunctInt == 0 ? "BC" : cityViewModel.City.EraDefunct = cityViewModel.EraDefunctInt == 1 ? "AD" : null;
-
-                string wwwrootPath = _webHostEnvironment.WebRootPath;
-
-                if (files != null)
-                {
-                    foreach (IFormFile file in files)
-                    {
-                        string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                        string productParh = @"images\cities/city-" + cityViewModel.City.Id;
-                        string finalPath = Path.Combine(wwwrootPath, productParh);
-
-                        if (!Directory.Exists(finalPath))
-                        {
-                            Directory.CreateDirectory(finalPath);
-                        }
-
-                        using (var fileStream = new FileStream(Path.Combine(finalPath, fileName), FileMode.Create))
-                        {
-                            file.CopyTo(fileStream);
-                        }
-
-                        CityImage image = new CityImage()
-                        {
-                            CityId = cityViewModel.City.Id,
-                            ImageUrl = @"\" + productParh + @"\" + fileName
-                        };                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-
-
-                        if (cityViewModel.City.CityImages == null)
-                        {
-                            cityViewModel.City.CityImages = new List<CityImage>();
-                        }
-
-                        cityViewModel.City.CityImages.Add(image);
-                    }
-                }
-                
-                await _cityService.UpsertCityAsync(cityViewModel.City);
-                return RedirectToAction("Index");
+                cityViewModel.EraNames = EnumHelper.GetEnumSelectList<Era.EraNames>();
+                return View(cityViewModel);
             }
 
-            cityViewModel.EraNames = EnumHelper.GetEnumSelectList<Era.EraNames>();
-            return View(cityViewModel);
-        }
+            cityViewModel.City.EraCreated = cityViewModel.EraCreatedInt == 0 ? "BC" : "AD";
+            cityViewModel.City.EraDefunct = cityViewModel.EraDefunctInt == 0 ? "BC" : "AD";
 
-        public async Task< ActionResult> DeleteImage(int imageId)
-        {
-            var imageToBeDeleted = await _cityImageService.GetCityImageByIdAsync(imageId);
-            int cityId = imageToBeDeleted.CityId;
-            if (imageToBeDeleted != null)
+            string wwwrootPath = _webHostEnvironment.WebRootPath;
+
+            if (files != null)
             {
-                if (!string.IsNullOrEmpty(imageToBeDeleted.ImageUrl))
-                {
-                    var oldPath = Path.Combine(_webHostEnvironment.WebRootPath, imageToBeDeleted.ImageUrl.TrimStart('\\'));
+                string cityPath = $"images/cities/city-{cityViewModel.City.Id}";
+                string finalPath = Path.Combine(wwwrootPath, cityPath);
 
-                    if (System.IO.File.Exists(oldPath))
-                    {
-                        System.IO.File.Delete(oldPath);
-                    }
+                if (!Directory.Exists(finalPath))
+                {
+                    Directory.CreateDirectory(finalPath);
                 }
 
-                await _cityImageService.DeleteCityImageAsync(imageId);
+                foreach (IFormFile file in files)
+                {
+                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+
+                    using (var fileStream = new FileStream(Path.Combine(finalPath, fileName), FileMode.Create))
+                    {
+                        file.CopyTo(fileStream);
+                    }
+
+                    if (cityViewModel.City.CityImages == null)
+                    {
+                        cityViewModel.City.CityImages = new List<CityImage>();
+                    }
+
+                    cityViewModel.City.CityImages.Add(new CityImage
+                    {
+                        CityId = cityViewModel.City.Id,
+                        ImageUrl = $"/{cityPath}/{fileName}"
+                    });
+                }
             }
 
-            return RedirectToAction(nameof(Upsert), new { id = cityId });
+            await _factory.Create<UpsertCityCommand>().ExecuteAsync(cityViewModel.City);
+            return RedirectToAction("Index");
         }
 
-
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> DeleteImage(int imageId)
         {
-            var obj = await _cityService.GetCityByIdAsync(id);
-            if (obj == null)
-            {
+            var imageToBeDeleted = await _factory.Create<GetCityImageByIdQuery>().ExecuteAsync(imageId);
+            if (imageToBeDeleted == null)
                 return NotFound();
-            }
 
-            string cityPath = @"images\cities/city-" + id;
+            string cityPath = $"images/cities/city-{imageToBeDeleted.CityId}";
             string finalPath = Path.Combine(_webHostEnvironment.WebRootPath, cityPath);
 
             if (Directory.Exists(finalPath))
             {
-                string[] filePaths = Directory.GetFiles(finalPath);
-                foreach (string filePath in filePaths)
-                {
-                    System.IO.File.Delete(filePath);
-                }
-
-                Directory.Delete(finalPath);
+                Directory.Delete(finalPath, true);
             }
 
-            await _cityService.DeleteCityAsync(id);
-
-            return RedirectToAction("Index");
+            await _factory.Create<DeleteCityImageCommand>().ExecuteAsync(imageId);
+            return RedirectToAction(nameof(Upsert), new { id = imageToBeDeleted.CityId });
         }
 
+        public async Task<IActionResult> Delete(int id)
+        {
+            var city = await _factory.Create<GetCityByIdQuery>().ExecuteAsync(id, string.Empty);
+            if (city == null)
+                return NotFound();
+
+            string cityPath = $"images/cities/city-{id}";
+            string finalPath = Path.Combine(_webHostEnvironment.WebRootPath, cityPath);
+
+            if (Directory.Exists(finalPath))
+            {
+                Directory.Delete(finalPath, true);
+            }
+
+            await _factory.Create<DeleteCityCommand>().ExecuteAsync(id);
+            return RedirectToAction("Index");
+        }
     }
 }

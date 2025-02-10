@@ -1,8 +1,7 @@
-﻿using AncientCities.Application.DTOs;
-using AncientCities.Domain.Entities;
+﻿using AncientCities.Domain.Entities;
 using AutoMapper;
 
-namespace AncientCities.Application.Mappers
+namespace AncientCities.Application.AncientCity
 {
     public class CityMapper : Profile
     {

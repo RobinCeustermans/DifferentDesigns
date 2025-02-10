@@ -1,4 +1,4 @@
-﻿namespace AncientCities.Application.DTOs
+﻿namespace AncientCities.Application.AncientCityType
 {
     public class CityTypeDto
     {

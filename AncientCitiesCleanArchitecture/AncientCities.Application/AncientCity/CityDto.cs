@@ -1,6 +1,6 @@
 ﻿using AncientCities.Domain.Entities;
 
-namespace AncientCities.Application.DTOs
+namespace AncientCities.Application.AncientCity
 {
     public class CityDto
     {

@@ -24,4 +24,8 @@
     <ProjectReference Include="..\AncientCities.Infrastructure\AncientCities.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\cities\" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,7 @@
-﻿using AncientCities.Application.DTOs;
-using AncientCities.Application.Interfaces;
+﻿using AncientCities.Application.AncientCityType;
+using AncientCities.Application.AncientCityType.Commands;
+using AncientCities.Application.AncientCityType.Queries;
+using AncientCities.Application.CommonData.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AncientCities.WebAPI.Controllers
@@ -7,17 +9,17 @@ namespace AncientCities.WebAPI.Controllers
     [Controller]
     public class CityTypeController : Controller
     {
-        private readonly ICityTypeService _cityTypeService;
+        private readonly IQueryCommandFactory _factory;
 
-        public CityTypeController(ICityTypeService cityTypeService)
+        public CityTypeController(IQueryCommandFactory factory)
         {
-            _cityTypeService = cityTypeService;
+            _factory = factory;
         }
 
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var cityTypes = await _cityTypeService.GetAllCityTypesAsync();
+            var cityTypes = await _factory.Create<GetAllCityTypesQuery>().ExecuteAsync();
             return View(cityTypes);
         }
 
@@ -27,7 +29,7 @@ namespace AncientCities.WebAPI.Controllers
             if (id == null || id == 0)
                 return View(new CityTypeDto());
 
-            var cityType = await _cityTypeService.GetCityTypeByIdAsync(id.Value);
+            var cityType = await _factory.Create<GetCityTypeByIdQuery>().ExecuteAsync(id.Value);
             if (cityType == null)
                 return NotFound();
 
@@ -39,7 +41,7 @@ namespace AncientCities.WebAPI.Controllers
         {
             if (ModelState.IsValid)
             {
-                await _cityTypeService.UpsertCityTypeAsync(cityTypeDto);
+                await _factory.Create<UpsertCityTypeCommand>().ExecuteAsync(cityTypeDto);
                 return RedirectToAction("Index");
             }
             return View(cityTypeDto);
@@ -47,7 +49,7 @@ namespace AncientCities.WebAPI.Controllers
 
         public async Task<IActionResult> Delete(int id)
         {
-            await _cityTypeService.DeleteCityTypeAsync(id);
+            await _factory.Create<DeleteCityTypeCommand>().ExecuteAsync(id);
             return RedirectToAction("Index");
         }
     }
